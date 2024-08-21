@@ -47,6 +47,7 @@ public class StudentOrderValidator {
     }
 
     public void checkOneOrder(StudentOrder so) {
+        //test/
         AnswerCityRegister cityAnswer = checkCityRegister(so);
         AnswerWedding weddingAnswer = checkWedding(so);
         AnswerChildren childrenAnswer = checkChildren(so);
